@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --light-color:#666;
+    --black:#444;
+    --border: 2rem solid rgba(0,0,0,.1);
+    --border-hover:1rem solid var(--black);
+    --box-shadow: 0 .5 1rem rgba(0,0,0,.1);
+
+    }
+
+    *{
+        font-family:'Poppins',sans-serif;
+        font-weight: 500;
+        
+    }
+    .footer
+    {
+        background-color:#0C134F;
+    }
+
+    .footer_main_container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    background-color:#1D267D;
+    background-color:#0C134F;
+    color: white;
+    min-height: 400px;
+    margin: 0px 1rem;  
+}
+.part1, .part2 ,.part3, .part4{
+    margin-top: 40px;
+    font-size: 18px;
+
+}
+
+
+
+.part4 .address .address_part1, .address_part2,.address_part3{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.part1
+{
+    margin-right:3rem;
+    text-align: justify;
+    font-size: 18px;
+
+}
+.part4 .address{
+    display:flex;
+    flex-direction: column;
+    font-size: 18px;
+
+
+}
+
+.part4 .socialMeadia_account{
+    margin-top:20px;
+    font-size: 18px;
+
+
+}
+.part4 .socialMeadia_account .socialMedia_icons{
+    display: flex;
+    gap: 10px;
+}
+.footer_end p{
+   font-size:15px;
+    margin-right: 200px;
+   color: white;
+   text-align: center;
+   justify-content: center;
+   background-color: black;
+   width: 100%;
+
+}
+
+@media (max-width: 384px) {
+ 
+.footer{
+    /* background-color: black; */
+}    
+
+.footer_main_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color:#0C134F;
+    /* background-color:black; */
+    color: white;
+    min-height: 400px;
+    margin: 0px 1rem;  
+    /* gap: 20px; */
+
+}
+.part1, .part2 ,.part3, .part4{
+    margin-top: 20px;
+    /* background-color: red; */
+
+}
+
+.part4 p{
+    /* text-align: justify; */
+    margin: 0px 10px;
+    /* text-align:justify; */
+    padding-right: 40px;
+    word-spacing: 10px;
+
+    
+}
+.part4 .address .address_part1, .address_part2,.address_part3{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    
+}
+.part4 .address{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: -30px;
+
+}
+
+.socialMeadia_account{  
+    /* margin-bottom: 200px; */
+    /* background-color: pink; */
+    padding-bottom: 50px;
+
+
+    
+}
+.socialMeadia_account .socialMedia_icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.footer_end p{
+    font-size:10px;
+    text-align: center;
+
+}
+
+.part1 h2{
+    font-size: 18px;
+     
+}
+.part1 .aboutus_content{
+    font-size: 14px;
+
+}
+      
+.part2 h2{
+    font-size: 18px;
+     
+}
+.part2 .product_list_content{
+    font-size: 14px;
+ 
+}
+.part3 h2{
+    font-size: 18px;
+     
+}
+.part3 .quicklink_content{
+    font-size: 14px;
+    
+}
+.part4 h2{
+    font-size: 18px;
+     
+}
+.part4 .address{
+    font-size: 14px;
+
+}
+
+
+}

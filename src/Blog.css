@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+/* :root{
+    --light-color:#666;
+    --black:#444;
+    --border: 1rem solid rgba(0,0,0,.1);
+    --border-hover:1rem solid var(--black);
+    --box-shadow: 0 .5 1rem rgba(0,0,0,.1);
+
+    } */
+
+    *{
+        font-family:'Poppins',sans-serif;
+    }
+    .blog{
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .blog .heading_container{
+        background-color: #1D267D;
+        border-radius: 53px;
+        min-width: 37rem;
+        margin: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        justify-content: center;
+        
+
+
+    }
+
+    
+    
+    .blog .heading_container h2{
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        
+    }
+
+    .blogPost{
+        display:flex;
+        flex-direction:row;  
+        /* margin: 10px 4rem;    */
+        font-size: 1rem;
+        margin-bottom: 40px;
+    }
+    .blogPost .banner
+    { 
+      margin: 0px 5.5px;
+      
+
+
+    }
+
+    @media (max-width: 384px) {
+        .blog{
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+
+        .blog .heading_container{
+            background-color: #1D267D;
+            border-radius: 53px;
+            min-width: 200px;
+            margin-top: 20px;
+            min-height: 30px;
+            padding: 5px;
+
+            margin-bottom: 20px;
+            text-align: center;
+            justify-content: center;
+            
+    
+    
+        }
+
+        .blog .heading_container h2{
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            
+        }
+        .blogPost{
+            display:flex;
+            flex-direction:column;  
+            margin: 10px 10px;   
+            font-size: 1rem;
+            margin-bottom: 40px;
+            gap: 20px;
+        }
+        .blogPost img{
+            height: 200px;
+            width: 290px;
+        }
+        .blogPost p
+        { font-size: 10px;
+          justify-content:center ;
+          text-align: justify;
+          margin: 0px 5.5px;
+
+
+        }
+        .spantag{
+            color: blue;
+        }
+
+
+
+
+    }
+

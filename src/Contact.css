@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --light-color:#666;
+    --black:#444;
+    --border: 2rem solid rgba(0,0,0,.1);
+    --border-hover:1rem solid var(--black);
+    --box-shadow: 0 .5 1rem rgba(0,0,0,.1);
+
+    }
+
+    *{
+        font-family:'Poppins',sans-serif;
+    }
+    */
+    .contact_main_container{
+        display: grid;
+        grid-template-columns: 1.3fr 1fr;
+        margin: 0 auto;
+        
+    
+    }
+    .contact_banner img{
+        position: relative;
+        width:100%;
+        margin-top: 90px;
+    
+    }
+    
+
+    .left_box{
+        color: white;
+        background-color: #1D267D;
+        min-height: 300px;
+        padding: 30px 5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 30px;
+    }
+    
+    .main_name{
+        margin-bottom: 40px;
+    }
+    
+    .address_part1{
+        display: flex;
+        gap: .5rem;
+        margin-bottom: 20px;
+    }
+
+    
+    .address_content_contact{
+        font-size: larger;
+    }
+
+
+    .address_part2{
+        display: flex;
+        gap: .5rem;
+        margin-bottom: 20px;
+
+    }
+
+    .call_number_contact{
+        font-size: larger;
+
+    }
+
+    .address_part3{
+        display: flex;
+        gap:.5rem;
+        margin-bottom: 40px;
+    }
+    
+    .email_contact{
+        font-size: larger;
+    }
+
+    .right_box{
+        color: white;
+        background-color: #1D267D;
+        min-height: 300px;
+        /* padding: 30px 5rem; */
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 30px;
+        /* max-width: 35rem; */
+        /* max-width: 100%;  */
+
+    }
+
+    .map_container{
+        position: relative;
+        /* max-width: 35rem; */
+    }
+   
+@media (max-width: 384px) {
+    
+    .contact_banner img{
+        position: relative;
+        width:100%;
+        margin-top: 90px;
+        height: 100px;
+
+    
+    }
+    .contact_main_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+    .left_box{
+        color: white;
+        background-color: #1D267D;
+        min-height: 300px;
+        padding: 30px 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 30px;
+    }
+    
+    .main_name{
+        margin-bottom: 20px;
+        font-size: 18px;
+        
+    }
+    
+    .address_part1{
+        display: flex;
+        gap: .5rem;
+        font-size: 15px;
+        margin-bottom: 20px;
+        /* text-align: justify; */
+    }
+
+    
+    .address_content_contact{
+        font-size: 15px;
+    }
+
+
+    .address_part2{
+        display: flex;
+        gap: .5rem;
+        margin-bottom: 20px;
+
+    }
+
+    .call_number_contact{
+        font-size: larger;
+        font-size: 15px;
+
+
+    }
+
+    .address_part3{
+        display: flex;
+        gap:.5rem;
+        margin-bottom: 40px;
+    }
+    
+    .email_contact{
+        font-size: 15px;
+    }
+  
+
+}
+
+
+    

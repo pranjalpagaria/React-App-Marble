@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --light-color:#666;
+    --black:#444;
+    --border: 2rem solid rgba(115, 111, 111, 0.1);
+    --border-hover:1rem solid var(--black);
+    --box-shadow: 0 .5 1rem rgba(0,0,0,.1);
+
+    }
+
+    *{
+        font-family:'Poppins',sans-serif;
+    }
+
+
+.main_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px; 
+   
+}
+
+.product_heading{
+    background-color: #1D267D;
+    border-radius: 53px;
+    min-width: 37rem;
+    margin-bottom: 20px;
+
+}
+
+.product_heading h2{   
+font-size: 30px;
+color: #fff;
+padding: 3px 2rem;
+text-align: center;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.marble_box ,.quartz_box,.granite_box,.pebbles_box {
+    /* margin: 15px 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fff;
+    border: var(--border);
+
+}
+
+.text{
+    background-color:#1D267D ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.text p{
+    font-size:20px;
+    color: #fff;
+    margin: 10px 2rem;
+}
+
+
+.marble_box:hover , .quartz_box:hover, .granite_box:hover,.pebbles_box:hover{
+    border: var(--border-hover);
+}
+.marble_box:hover{
+    border: var(--border-hover);
+}
+
+.marble_box:hover .image img ,.quartz_box:hover .image img,.granite_box:hover .image img,.pebbles_box :hover .image img {
+    transform: scale(1.1);
+}
+.marble_box .image img{
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;     /* Apply margin to the top side */
+    margin-left: 2rem;    /* Apply margin to the left side */
+    margin-right: 2rem;
+}
+
+
+.quartz_box .image img{
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;     /* Apply margin to the top side */
+    margin-left: 2rem;    /* Apply margin to the left side */
+    margin-right: 2rem;
+}
+
+
+.granite_box .image img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: 20px;     /* Apply margin to the top side */
+    margin-left: 2rem;    /* Apply margin to the left side */
+    margin-right: 2rem;
+
+}
+
+
+.pebbles_box .image img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: 20px;     /* Apply margin to the top side */
+    margin-left: 2rem;    /* Apply margin to the left side */
+    margin-right: 2rem;
+
+}
+
+@media (max-width: 384px) {
+
+
+    :root{
+        --light-color:#666;
+        --black:#444;
+        --border: 20px solid rgba(23, 219, 108, 0.1);
+        --border-hover: 0.5rem solid var(--black);
+        --box-shadow: 0 .5 1rem rgba(0,0,0,.1);
+    
+        }
+
+    .main_container{
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        /* width: 100%; */
+        /* align-items:center; */
+        /* flex-direction: column; */
+        display: block;
+        /* justify-content: center; */
+
+       
+}
+
+.product_heading{
+    background-color: #1D267D;
+    border-radius: 53px;
+    min-width: 200px;
+    min-height: 30px;
+
+    margin-bottom: 20px;
+    margin: 20px 40px;
+}
+
+.product_heading h2
+{   
+font-size: 20px;
+color: #fff;
+padding: 3px 20px;
+text-align: center;
+
+}
+    .row
+    {
+    display: flex;
+    flex-direction:column;
+    }
+
+         .marble_box ,.quartz_box,.granite_box,.pebbles_box {
+            margin: 0px 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* background-color:red; */
+            border: 10px solid rgba(19, 2, 2, 0.1);
+        
+        }
+
+        .text{
+            background-color:#1D267D ;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        
+        }
+        .text p{
+            font-size:15px;
+            color: #fff;
+            margin: 10px 1rem;
+            font-weight: 500;
+        }
+         .marble_box .image img{
+            height: 250px;
+            width: 250px;
+            margin: 5px 10px;
+        }
+        
+        
+        .quartz_box .image img{
+            height: 250px;
+            width: 250px;
+            margin: 5px 10px;
+            
+        }
+        
+        
+        .granite_box .image img{
+            height: 250px;
+            width: 250px;
+            object-fit: cover;
+            margin: 5px 10px;
+            
+        
+        }
+        .pebbles_box .image img{
+           height: 250px;
+            width: 250px;
+            object-fit: cover;
+            margin: 5px 10px;
+            
+        
+        }
+
+}
